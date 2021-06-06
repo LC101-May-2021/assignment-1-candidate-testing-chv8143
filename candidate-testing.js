@@ -25,9 +25,9 @@ correctAnswers= ['Sally Ride',
 
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
-// question='Who was the first American woman in space?'
-// candidateAnswer =input.question (question);
-// correctAnswer= "Sally Ride";
+question='Who was the first American woman in space?'
+candidateAnswer =input.question (question);
+correctAnswer= "Sally Ride";
 
 questions=['1. Who was the first American woman in space?',
 '2. True or false: 5 kilometer == 5000 meters?',
