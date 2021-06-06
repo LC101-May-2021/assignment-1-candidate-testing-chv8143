@@ -10,7 +10,7 @@ let correctAnswer;
 let candidateAnswer;
 let questions;
 let correctAnswers;
-let candidateAnswers;
+let candidateAnswers[];
 
 
 function askForName() {
@@ -66,7 +66,7 @@ if (candidateAnswers[i].toLowerCase()===correctAnswers[i].toLowerCase()){
 } 
 }
   let grade=((rightAnswers/5)*100)
-  console.log (`>>> Overall Grade: ${grade} (${rightAnswers} of 5 responses correct) <<<`)
+  console.log (`>>>Overall Grade: ${grade} (${rightAnswers} of 5 responses correct) <<<`)
 if (grade>=80){
   console.log ('>>> Status: PASSED <<<');
 }else 
