@@ -10,7 +10,7 @@ let correctAnswer;
 let candidateAnswer;
 let questions;
 let correctAnswers;
-let candidateAnswers[];
+let candidateAnswers=[];
 
 
 function askForName() {
